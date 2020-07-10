@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="t/M=!ueS3ce{rq9B6qgk">Player</variable><variable type="KIND_SpriteKind" id=";uZ`Rx`.x=^bCDJ0#bpH">Projectile</variable><variable type="KIND_SpriteKind" id="%;{.Rt-3Dq1-LTKV[5iJ">Food</variable><variable type="KIND_SpriteKind" id="dLg27kUn)o]*fctzgu;K">Enemy</variable><variable type="KIND_SpriteKind" id="mN96#k~*,2:C3Xjp!%nS">fridge</variable><variable id="*^y%HlM]V`=,K^m3uP6P">mySprite</variable><variable id="/we^QUebEcOP#k2f-3ZY">fridge1</variable></variables><block type="function_definition" x="0" y="16"><mutation name="placeFridge" functionid="M[kq/n{{Tc;CX7qV@vcj"/><field name="function_name">placeFridge</field><statement name="STACK"><block type="variables_set"><field name="VAR" id="/we^QUebEcOP#k2f-3ZY">fridge1</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. d d d d d d d d d d d d d d d 
+d d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+d 1 b b b b b b b b b b b b b b 
+d b b b b b b b b b b b b b b b 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">fridge</field></shadow></value></block></value><next><block type="mapplaceontile"><value name="sprite"><block type="variables_get"><field name="VAR" id="/we^QUebEcOP#k2f-3ZY">fridge1</field></block></value><value name="loc"><shadow type="mapgettile"><value name="col"><shadow type="math_number"><field name="NUM">19</field></shadow></value><value name="row"><shadow type="math_number"><field name="NUM">0</field></shadow></value></shadow></value></block></next></block></statement></block></xml>
