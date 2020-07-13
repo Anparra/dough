@@ -3,10 +3,6 @@ namespace SpriteKind {
     export const refri = SpriteKind.create()
     export const dough = SpriteKind.create()
 }
-let dough1: Sprite = null
-let dough2: Sprite = null
-let dough3: Sprite = null
-let dough4: Sprite = null
 function placeDough () {
     dough1 = sprites.create(img`
 . . f f f f f f f f f f f f f f 
@@ -85,3 +81,8 @@ f f f f f f f f f f f f f f . .
 `, SpriteKind.dough)
     tiles.placeOnTile(dough4, tiles.getTileLocation(14, 1))
 }
+let dough4: Sprite = null
+let dough3: Sprite = null
+let dough2: Sprite = null
+let dough1: Sprite = null
+placeDough()
