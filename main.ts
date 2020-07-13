@@ -85,7 +85,7 @@ function placeDough() {
 }
 namespace dough {
     //% block
-    export function Zone1_dough() {
+    export function zone1_dough() {
         placeDough()
     }
 }
