@@ -1,5 +1,5 @@
 {
-    "name": "zone1_dough",
+    "name": "zones_dough",
     "dependencies": {
         "device": "*",
         "color-coded-tilemap": "*"
