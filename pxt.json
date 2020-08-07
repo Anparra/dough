@@ -1,17 +1,24 @@
 {
     "name": "zones_dough",
+    "description": "",
     "dependencies": {
         "device": "*",
         "color-coded-tilemap": "*"
     },
-    "description": "",
     "files": [
         "main.blocks",
         "main.ts",
         "README.md"
     ],
-    "preferredEditor": "tsprj",
     "testFiles": [
         "test.ts"
-    ]
+    ],
+    "targetVersions": {
+        "target": "1.0.16",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
 }
